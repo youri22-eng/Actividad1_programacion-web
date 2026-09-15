@@ -1,0 +1,40 @@
+/*Estilos generales*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #db4747;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/*estilos para las tarjetas del menu*/
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta {
+    width: 180px;
+    height: 130px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tarjeta:hover {
+    background-color: #8cc71e;
+}
