@@ -4,6 +4,9 @@ body {
   text-align: center;
   padding-top: 50px;
 }
+h1{
+    color: #5377ef;
+}
 
 .contenedor {
   background-color: white;
@@ -32,7 +35,7 @@ input {
 button {
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #28a745;
+  background-color: #b94064;
   color: white;
   border: none;
   border-radius: 4px;
@@ -40,5 +43,5 @@ button {
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #dfdf78;
 }

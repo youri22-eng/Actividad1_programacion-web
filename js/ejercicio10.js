@@ -1,15 +1,15 @@
 function convertir() {
-  const celsiusInput = document.getElementById("celsius");
-  const fahrenheitInput = document.getElementById("fahrenheit");
+  var celsiusInput = document.getElementById("celsius").value;
+  var f = document.getElementById("fahrenheit");
+  
+  var celsius = parseFloat(celsiusInput); 
 
-  const celsius = celsiusInput.value;
-
-  if (celsius === "" || isNaN(celsius)) {
+  if (isNaN(celsius)) {
     alert("Por favor ingresa un valor numérico válido en Celsius.");
-    return;
+  } else {
+    var resultado = (celsius * 9/5) + 32;
+
+    f.value = resultado + "°F";
   }
-
-  const fahrenheit = (celsius * 9/5) + 32;
-
-  fahrenheitInput.value = fahrenheit + "°F";
+  
 }
